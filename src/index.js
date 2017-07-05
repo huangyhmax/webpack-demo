@@ -1,18 +1,12 @@
-import _ from 'lodash';
-import $ from 'jquery';
-import foo from './foo.js';
-function component() {
-//   var element = document.createElement('div');
-  var element=$('<div></div>')
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+import registerServiceWorker from './registerServiceWorker';
 
-  // Lodash, currently included via a script, is required for this line to work
-  // Lodash, now imported by this script
-//   element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-  element.html(_.join(['this is test for ','imprt jquery haha test build'],''));
-//   return element;
-  return element.get(0);
-}
-
-document.body.appendChild(component());
-console.log(foo)
-console.log(foo())
+// ReactDOM.render(<App />, document.getElementById('root'));
+// registerServiceWorker();
+ReactDOM.render(
+  <h1>Hello, world! I am huangyh</h1>,
+  document.getElementById('root2')
+);
