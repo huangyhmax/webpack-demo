@@ -1,12 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import registerServiceWorker from './registerServiceWorker';
+import _ from 'lodash';
 
-// ReactDOM.render(<App />, document.getElementById('root'));
-// registerServiceWorker();
-ReactDOM.render(
-  <h1>Hello, world! I am huangyh</h1>,
-  document.getElementById('root2')
-);
+function component() {
+  var element = document.createElement('div');
+
+  // Lodash, currently included via a script, is required for this line to work
+  // Lodash, now imported by this script
+  element.innerHTML = _.join(['Hello', 'webpack'], ' ');
+
+  return element;
+}
+
+document.body.appendChild(component());
