@@ -1,20 +1,26 @@
 {
   "name": "webpack-demo",
+<<<<<<< HEAD
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack -p"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "webpack": "^3.0.0"
-  },
+=======
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "jquery": "^3.2.1",
-    "lodash": "^4.17.4"
-  }
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-scripts": "1.0.10"
+>>>>>>> 0c835f23fc0eb977750574b480a21784b0fcfed5
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "homepage": "https://huangyhmax.github.io/webpack-demo/build"
 }
