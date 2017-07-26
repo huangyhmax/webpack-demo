@@ -1,11 +1,368 @@
-<html>
+<!--<html>
   <head>
     <meta charset="utf-8">
     <title>Getting Started</title>
-    <!--<script src="https://unpkg.com/lodash@4.16.6"></script>-->
   </head>
   <body>
-    <!--<script src="./src/index.js"></script>-->
     <script src="dist/bundle.js"></script>
   </body>
+</html>-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="./index.css">
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <!--<script src="./index.js"></script>-->
+    <script src="dist/bundle.js"></script>
+</head>
+<body>
+    <nav class="navbackground show">
+        <div class="container clearfix">
+            <a href="javascript:void(0)" class="title">Start Bootstrap</a>
+            <ul class="tips">
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#portfolio">PORTFOLIO</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#pullpictures">WATERFULL</a></li>
+                <li><a href="#team">TEAM</a></li>
+                <li><a href="#contactus">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav class="navscroll hidden">
+        <div class="container clearfix">
+            <a href="javascript:void(0)" class="titlescroll">Start Bootstrap</a>
+            <ul class="tipscroll">
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#portfolio">PORTFOLIO</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#pullpictures">WATERFULL</a></li>
+                <li><a href="#team">TEAM</a></li>
+                <li><a href="#contactus">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="carousel-wrap">
+        <div id="carousel">
+            <ul class="pics">
+                <li id="0"><a href="#"><img class="carouselpic" src="img/header-bg.jpg" alt="loading..."></a></li>
+                <li id="1"><a href="#"><img class="carouselpic" src="img/header-bg.jpg" alt="loading..."></a></li>
+                <li id="2"><a href="#"><img class="carouselpic" src="img/header-bg2.jpg" alt="loading..."></a></li>
+                <li id="3"><a href="#"><img class="carouselpic" src="img/header-bg2.jpg" alt="loading..."></a></li>
+            </ul>
+            <a href="#" class="next arrow">></a>
+            <a href="#" class="pre arrow"><</a>
+            <ul class="tipchoose">
+                <li class="active"></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </div>
+    <header class="header">
+        <div class="container introduce">
+            <h1 class="header-one">Welcome To Our Studio!</h1>
+            <div class="header-two">
+                IT'S NICE TO MEET YOU
+            </div>
+            <div class="loadmore">
+                <a href="javascript:void(0)">TELL ME MORE</a>
+            </div>
+        </div>
+    </header>
+    <section class="services section" id="services">
+        <div class="container">
+            <div class="margin-set">
+                <div class="services-title">
+                    <h2>services</h2>
+                    <span>Lorem ipsum dolor sit amet consectetur.</span>
+                </div>
+                <ul class="clearfix">
+                    <li class="card">
+                        <div class="wrapper">
+                            <img src="img/icon_cq6czv6xz1e5ewmi/cart.png" alt="">
+                        </div>
+                        <a href="javascript:void(0)" class="content">
+                            <h4>E-Commerce</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                        </a>
+                    </li>
+                    <li class="card">
+                        <div class="wrapper">
+                            <img src="img/icon_cq6czv6xz1e5ewmi/electronics.png" alt="">
+                        </div>
+                        <a href="javascript:void(0)" class="content">
+                            <h4>Responsive Design</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                        </a>
+                    </li>
+                    <li class="card">
+                        <div class="wrapper">
+                            <img src="img/icon_cq6czv6xz1e5ewmi/Smile.png" alt="">
+                        </div>
+                        <a href="javascript:void(0)" class="content">
+                            <h4>Web Security</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio section" id="portfolio">
+        <div class="container ">
+            <div class="margin-set">
+                <div class="portfolio-title">
+                    <h2>portfolio</h2>
+                    <span>Lorem ipsum dolor sit amet consectetur.</span>
+                </div>
+                <ul class="portfolio-wrapper clearfix">
+                    <li class="portfolio-card">
+                        <div class="hover"><img src="img/icon_cq6czv6xz1e5ewmi/link.png" alt=""></div>
+                        <a href="javascript:void(0)" class="">
+                            <img src="img/roundicons.png" alt="" >
+                        </a>
+                        <div class="img-introduce">
+                            <h4>Round Icons</h4>
+                            <span>Graphic Design</span>
+                        </div>
+                    </li>
+                    <li class="portfolio-card">
+                        <div  class="hover"><img src="img/icon_cq6czv6xz1e5ewmi/link.png" alt=""></div>
+                        <a href="javascript:void(0)">
+                            <img src="img/dreams.png" alt="">
+                        </a>
+                        <div class="img-introduce">
+                            <h4>Round Icons</h4>
+                            <span>Graphic Design</span>
+                        </div>
+                    </li>
+                    <li class="portfolio-card">
+                        <div  class="hover"><img src="img/icon_cq6czv6xz1e5ewmi/link.png" alt=""></div>
+                        <a href="javascript:void(0)">
+                            <img src="img/escape.png" alt="">
+                        </a>
+                        <div class="img-introduce">
+                            <h4>Round Icons</h4>
+                            <span>Graphic Design</span>
+                        </div>
+                    </li>
+                    <li class="portfolio-card">
+                        <div  class="hover"><img src="img/icon_cq6czv6xz1e5ewmi/link.png" alt=""></div>
+                        <a href="javascript:void(0)">
+                            <img src="img/golden.png" alt="">
+                        </a>
+                        <div class="img-introduce">
+                            <h4>Round Icons</h4>
+                            <span>Graphic Design</span>
+                        </div>
+                    </li>
+                    <li class="portfolio-card ">
+                        <div class="hover"><img src="img/icon_cq6czv6xz1e5ewmi/link.png" alt=""></div>
+                        <a href="javascript:void(0)">
+                            <img src="img/startup-framework.png" alt="">
+                        </a>
+                        <div class="img-introduce">
+                            <h4>Round Icons</h4>
+                            <span>Graphic Design</span>
+                        </div>
+                    </li>
+                    <li class="portfolio-card">
+                        <div class="hover"><img src="img/icon_cq6czv6xz1e5ewmi/link.png" alt=""></div>
+                        <a href="javascript:void(0)">
+                            <img src="img/treehouse.png" alt="">
+                        </a>
+                        <div class="img-introduce">
+                            <h4>Round Icons</h4>
+                            <span>Graphic Design</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <section class="about section" id="about">
+        <div class="container">
+            <div class="margin-set">
+                <div class="about-title">
+                    <h2>ABOUT</h2>
+                    <span>Lorem ipsum dolor sit amet consectetur.</span>
+                </div>
+                <!--<div class="throughline"></div>-->
+                <ul class="about-wrapper">
+                    <li class="about-part">
+                        <img src="img/about-1.jpg" alt="">
+                        <div class="about-content">
+                            <h4>2009-2011</h4>
+                            <h2>Our Humble Beginnings</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                        </div>
+                    </li>
+                    <li class="about-part">
+                        <img src="img/about-2.jpg" alt="" class="img-wrapper">
+                        <div class="about-content">
+                            <h4>MARCH 2011</h4>
+                            <h2>An Agency is Born</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                        </div>
+                    </li>
+                    <li class="about-part">
+                        <img src="img/about-3.jpg" alt="" class="img-wrapper">
+                        <div class="about-content">
+                            <h4>DECEMBER 2012</h4>
+                            <h2>Transition to Full Service</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                        </div>
+                    </li>
+                    <li class="about-part">
+                        <img src="img/about-4.jpg" alt="" class="img-wrapper">
+                        <div class="about-content">
+                            <h4>JULY 2014</h4>
+                            <h2>Phase Two Expansion</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                        </div>
+                    </li>
+                    <li class="about-part">
+                        <img class="finalpart">
+                            <span class="bepartof">BE PART OF OUR STORY!</span>
+                        </img>
+                        
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="pullpictures section" id="pullpictures">
+        <div class="container">
+            <div class="margin-set">
+                <div class="contactus-title">
+                    <h2 class="pullpictures-h2 ">瀑布流图片</h2>
+                    <div class="contactus-span">Lorem ipsum dolor sit amet consectetur.</div>
+                </div>
+                <div id="waterfull">
+                    <ul class="pic">
+                        <li class="item"></li>
+                    </ul>
+                    <div class="loadmore loadpicture">
+                        <a href="javascript:void(0)">Load More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="amazing section" id="team">
+        <div class="container">
+            <div class="margin-set">
+                <div class="common-title">
+                    <h2 class="common-h2">our amazing team</h2>
+                    <div class="common-span amazing-set">Lorem ipsum dolor sit amet consectetur.</div>
+                </div>
+                <ul class="teamer clearfix">
+                    <li class="teamer-items">
+                        <img src="img/team-1.jpg" alt="" class="team-pics">
+                        <h4>Kay Garland</h4>
+                        <p>Lead Designer</p>
+                        <ul class="contact clearfix">
+                            <li><a href="javascript:void(0)" class="contact-item"><img src="img/icon_cq6czv6xz1e5ewmi/facebook-f.png" alt=""></a></li>
+                            <li><a href="javascript:void(0)" class="contact-item"><img src="img/icon_cq6czv6xz1e5ewmi/in.png" alt=""></a></li>
+                            <li><a href="javascript:void(0)" class="contact-item"><img src="img/icon_cq6czv6xz1e5ewmi/twitter.png" alt=""></a></li>
+                        </ul>
+                    </li>
+                    <li class="teamer-items">
+                        <img src="img/team-2.jpg" alt="" class="team-pics">
+                        <h4>Larry Parker</h4>
+                        <p>Lead Marketer</p>
+                        <ul class="contact">
+                            <li><a href="javascript:void(0)" class="contact-item"><img src="img/icon_cq6czv6xz1e5ewmi/facebook-f.png" alt=""></a></li>
+                            <li><a href="javascript:void(0)" class="contact-item"><img src="img/icon_cq6czv6xz1e5ewmi/in.png" alt=""></a></li>
+                            <li><a href="javascript:void(0)" class="contact-item"><img src="img/icon_cq6czv6xz1e5ewmi/twitter.png" alt=""></a></li>
+                        </ul>
+                    </li>
+                    <li class="teamer-items">
+                        <img src="img/team-3.jpg" alt="" class="team-pics">
+                        <h4>Diana Pertersen</h4>
+                        <p>Lead Developer</p>
+                        <ul class="contact">
+                            <li><a href="javascript:void(0)" class="contact-item"><img src="img/icon_cq6czv6xz1e5ewmi/facebook-f.png" alt=""></a></li>
+                            <li><a href="javascript:void(0)" class="contact-item"><img src="img/icon_cq6czv6xz1e5ewmi/in.png" alt=""></a></li>
+                            <li><a href="javascript:void(0)" class="contact-item"><img src="img/icon_cq6czv6xz1e5ewmi/twitter.png" alt=""></a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <p class="p-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+            </div>
+        </div>
+    </section>
+    <section class="row">
+        <div class="container clearfix">
+            <div class="linkpics">
+                <a href=""><img src="img/envato.jpg" alt=""></a>
+            </div>
+            <div class="linkpics">
+                <a href=""><img src="img/designmodo.jpg" alt=""></a>
+            </div>
+            <div class="linkpics">
+                <a href=""><img src="img/themeforest.jpg" alt=""></a>
+            </div>
+            <div class="linkpics">
+                <a href=""><img src="img/creative-market.jpg" alt=""></a>
+            </div>
+        </div>
+    </section>
+    <section class="contactus section" id="contactus">
+        <div class="contactus-item">
+            <div class="container">
+                <div class="margin-set">
+                    <div class="contactus-title">
+                        <h2 class="contactus-h2">CONTACT US</h2>
+                        <div class="contactus-span">Lorem ipsum dolor sit amet consectetur.</div>
+                    </div>
+                    <div class="inputitems">
+                        <input type="text" placeholder="YOUR NAME*">
+                        <input type="text" placeholder="YOUR EMAIL*">
+                        <input type="text" placeholder="YOUR PHONE*">
+                    </div>
+                    <div>
+                        <textarea rows="" cols="" class="textareaitem" placeholder="YOUR MESSAGE*"></textarea>
+                    </div>
+                    <div class="btn">
+                        <a href="javascript:void(0)">SEND MESSAGE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer ">
+        <div class="container clearfix">
+            <div class="footerpart">
+                <p>Copyright © Your Website 2017</p>
+            </div>
+            <div class="footerpart footerpartlink">
+                <ul class="contact clearfix">
+                    <li><a href="javascript:void(0)" class="contact-item"><img src="img/icon_cq6czv6xz1e5ewmi/facebook-f.png" alt=""></a></li>
+                    <li><a href="javascript:void(0)" class="contact-item"><img src="img/icon_cq6czv6xz1e5ewmi/in.png" alt=""></a></li>
+                    <li><a href="javascript:void(0)" class="contact-item"><img src="img/icon_cq6czv6xz1e5ewmi/twitter.png" alt=""></a></li>
+                </ul>
+            </div>
+            <div class="footerpart">
+                <a class="linka" href="javascript:void(0)">Privacy Policy  </a>
+                <a class="linka" href="javascript:void(0)"> Terms of Use</a>
+            </div>
+        </div>
+    </section>
+    <div class="gotop"><img src="img/gotop.png" alt=""></div>
+</body>
 </html>
